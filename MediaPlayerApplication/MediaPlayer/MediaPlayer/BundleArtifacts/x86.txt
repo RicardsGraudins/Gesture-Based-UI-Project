@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\bin\x86\Release\MediaPlayerApplication_1.0.2.0_x86.appx
+SymbolPackage=C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\AppPackages\MediaPlayerApplication_1.0.2.0_Test\MediaPlayerApplication_1.0.2.0_x86.appxsym

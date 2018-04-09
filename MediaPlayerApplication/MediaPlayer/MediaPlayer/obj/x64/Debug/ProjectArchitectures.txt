@@ -1,2 +1,0 @@
-C:\Users\Richard\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerApplication.csproj;x64
-C:\Users\Richard\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\MediaPlayerRuntimeComponent.csproj;x64

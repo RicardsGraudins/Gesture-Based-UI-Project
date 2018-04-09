@@ -72,3 +72,22 @@ C:\Users\User\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaP
 C:\Users\User\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\User\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\User\Desktop\here\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.csprojResolveAssemblyReference.cache
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\bin\x86\Debug\MediaPlayerRuntimeComponent.winmd
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\bin\x86\Debug\MediaPlayerRuntimeComponent.pdb
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\bin\x86\Debug\MediaPlayerRuntimeComponent.pri
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.winmd
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.pdb
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.winmdobj
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.compile.pdb
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\priconfig.xml
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\layout.resfiles
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\resources.resfiles
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\pri.resfiles
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\qualifiers.txt
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richard\Desktop\Gesture Project\Gesture Project\MediaPlayerApplication\MediaPlayer\MediaPlayer\MediaPlayerRuntimeComponent\obj\x86\Debug\MediaPlayerRuntimeComponent.csprojResolveAssemblyReference.cache
