@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.BottomAppBar>
-        <CommandBar>
+        <CommandBar x:Name="VidCommandBar">
             <CommandBar.Content>
                 <Grid/>
             </CommandBar.Content>
@@ -16,6 +16,6 @@
     </Page.BottomAppBar>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <MediaElement x:Name="mediaElement" RequestedTheme="Dark" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="auto" Width="auto" Stretch="Uniform"></MediaElement>
+        <MediaElement x:Name="mediaElement" MediaOpened="mediaElement_MediaOpened" MediaEnded="mediaElement_MediaEnded" Tapped="mediaElement_Tapped" RequestedTheme="Dark" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="auto" Width="auto" Stretch="Uniform"></MediaElement>
     </Grid>
 </Page>

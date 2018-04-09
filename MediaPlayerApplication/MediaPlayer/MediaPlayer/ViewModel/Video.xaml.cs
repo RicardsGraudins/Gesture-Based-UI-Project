@@ -99,6 +99,31 @@ namespace MediaPlayerApplication.ViewModel
             }
         }
 
+        //Media opened event
+        private void mediaElement_MediaOpened(object sender, RoutedEventArgs e)
+        {
+            VidCommandBar.Visibility = Visibility.Collapsed;
+        }
+
+        //Media ended event
+        private void mediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            VidCommandBar.Visibility = Visibility.Visible;
+        }
+
+        //Media tapped/clicked event
+        private void mediaElement_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            if (VidCommandBar.Visibility == Visibility.Collapsed)
+            {
+                VidCommandBar.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                VidCommandBar.Visibility = Visibility.Collapsed;
+            }
+        }
+
         //Play/resume video
         public void voicePlayVideo()
         {
