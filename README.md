@@ -20,6 +20,11 @@ Cortana is a virtual assistant created by Microsoft for Windows 10, Windows 10 M
 Words marked with [ ] are optional and are not necessary in order to execute the command.  
 Words marked with { } are labels loaded through phraselists that tell Cortana which element you specifically mean i.e. in this application we have phraselists for 'song' and 'book', these phraselists are dynamically updated when a page loads by taking the files located in Assets/Music & Assets/Books.  
 
+To use a command say: `Hey Cortana, Media Player <Command>`  
+or alternatively click Cortana search and say: `Media Player <Command>`  
+
+Replace `<Command>` with any of the following commands from the lists, also make sure the application is running before saying the command - does not matter if its in the suspended/unsuspended state.
+
 #### Music Page:
 * `Pause [song]`
 * `Pause [music]`
