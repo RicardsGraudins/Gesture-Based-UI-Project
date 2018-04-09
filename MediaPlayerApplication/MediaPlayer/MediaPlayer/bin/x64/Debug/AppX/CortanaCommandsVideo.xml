@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-GB" Name="MediaPlayerCommandSet_en-GB">
+    <CommandPrefix> Media Player, </CommandPrefix>
+    <Example> Do something </Example>
+
+    <Command Name="resumeVideo">
+      <Example> resume video </Example>
+      <ListenFor> resume [the] [video] </ListenFor>
+      <Feedback> Resuming video </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="playVideo">
+      <Example> play video </Example>
+      <ListenFor> play [the] [video] </ListenFor>
+      <Feedback> Resuming video </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="pauseVideo">
+      <Example> pause video </Example>
+      <ListenFor> pause [the] video </ListenFor>
+      <Feedback> Pausing the video </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="stopVideo">
+      <Example> stop video </Example>
+      <ListenFor> stop [playing] [the] video </ListenFor>
+      <Feedback> Stopping the video </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="fullscreen">
+      <Example> fullscreen </Example>
+      <ListenFor> [go] fullscreen [the] [video] </ListenFor>
+      <Feedback> Got it </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="incVol">
+      <Example> increase volume </Example>
+      <ListenFor> increase [the] [video] volume </ListenFor>
+      <Feedback> Increasing volume </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="decVol">
+      <Example> decrease volume </Example>
+      <ListenFor> decrease [the] [video] volume </ListenFor>
+      <Feedback> Decreasing volume </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="incVolHalf">
+      <Example> increase volume half </Example>
+      <ListenFor> increase [the] [video] volume [by] half </ListenFor>
+      <Feedback> Increasing volume </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="decVolHalf">
+      <Example> decrease volume half </Example>
+      <ListenFor> decrease [the] [video] volume [by] half </ListenFor>
+      <Feedback> Decreasing volume </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="exitVideo">
+      <Example> exit video </Example>
+      <ListenFor> exit video </ListenFor>
+      <Feedback> Exitting video </Feedback>
+      <Navigate/>
+    </Command>
+
+  </CommandSet>
+
+  <!-- Other CommandSets for other languages -->
+
+</VoiceCommands>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-GB" Name="MediaPlayerCommandSet_en-GB">
+    <CommandPrefix> Media Player, </CommandPrefix>
+    <Example> Do something </Example>
+
+    <Command Name="pauseSong">
+      <Example> pause song</Example>
+      <ListenFor> pause [song] </ListenFor>
+      <Feedback> Pausing music </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="pauseMusic">
+      <Example> pause music</Example>
+      <ListenFor> pause [music] </ListenFor>
+      <Feedback> Pausing music </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="resumeMusic">
+      <Example> resume music</Example>
+      <ListenFor> resume [music] </ListenFor>
+      <Feedback> Resuming music </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="playMusic">
+      <Example> play music</Example>
+      <ListenFor> play [music] </ListenFor>
+      <Feedback> Resuming music </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="nextSong">
+      <Example> play next song</Example>
+      <ListenFor> [play] next [song] </ListenFor>
+      <Feedback> Playing next song </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="previousSong">
+      <Example> play previous song</Example>
+      <ListenFor> [play] previous [song] </ListenFor>
+      <Feedback> Playing previous song </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="goBack">
+      <Example> go back </Example>
+      <ListenFor> go back </ListenFor>
+      <Feedback> Playing previous song </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="playSpecificSong">
+      <Example> play a song </Example>
+      <ListenFor> play {song} </ListenFor>
+      <Feedback> I'm on it </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="playRandomSong">
+      <Example> play a random song </Example>
+      <ListenFor> play [a] random [song] </ListenFor>
+      <Feedback> Playing a random song </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="skipSong">
+      <Example> skip song </Example>
+      <ListenFor> skip [song] </ListenFor>
+      <Feedback> Skipping </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="exitApp">
+      <Example> exit the application </Example>
+      <ListenFor> exit </ListenFor>
+      <Feedback> Closing Media Player </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="closeApp">
+      <Example> close the application </Example>
+      <ListenFor> close </ListenFor>
+      <Feedback> Closing Media Player </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="quitApp">
+      <Example> quit the application </Example>
+      <ListenFor> quit </ListenFor>
+      <Feedback> Closing Media Player </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="backgroundTask">
+      <Example>start background task</Example>
+      <ListenFor>[start] background [task]</ListenFor>
+      <Feedback> Starting background process</Feedback>
+      <VoiceCommandService Target="MediaPlayerVoiceCommandService"/>
+    </Command>
+
+    <Command Name="backgroundTask2">
+      <Example>execute order sixty six</Example>
+      <ListenFor>execute order sixty six</ListenFor>
+      <Feedback> Starting background process </Feedback>
+      <VoiceCommandService Target="MediaPlayerVoiceCommandService"/>
+    </Command>
+    
+    <PhraseList Label="song"></PhraseList>
+
+  </CommandSet>
+
+  <!-- Other CommandSets for other languages -->
+
+</VoiceCommands>
