@@ -99,6 +99,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data\Book.cs" />
+    <Compile Include="Data\DropboxFile.cs" />
     <Compile Include="Data\Song.cs" />
     <Compile Include="Model\MusicHandler.cs" />
     <Compile Include="Model\ReaderHandler.cs" />
@@ -107,6 +108,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\DropBox.xaml.cs">
+      <DependentUpon>DropBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\Music.xaml.cs">
       <DependentUpon>Music.xaml</DependentUpon>
     </Compile>
@@ -151,6 +155,10 @@
     <Page Include="Skeleton\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewModel\DropBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ViewModel\Music.xaml">
       <SubType>Designer</SubType>

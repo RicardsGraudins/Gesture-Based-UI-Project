@@ -34,6 +34,10 @@ namespace MediaPlayerApplication
             {
                 MyFrame.Navigate(typeof(Reader), "Reader");
             }
+            else if (Dropbox.IsSelected)
+            {
+                MyFrame.Navigate(typeof(DropBox), "Dropbox");
+            }
         }//RefreshButton_Click
 
         //Navigate to pages via splitview
@@ -61,6 +65,15 @@ namespace MediaPlayerApplication
             {
                 MyFrame.Navigate(typeof(Reader));
                 TitleTextBlock.Text = "Reader";
+                if (MySplitView.IsPaneOpen == true)
+                {
+                    MySplitView.IsPaneOpen = false;
+                }
+            }
+            else if (Dropbox.IsSelected)
+            {
+                MyFrame.Navigate(typeof(DropBox));
+                TitleTextBlock.Text = "Download Free Books";
                 if (MySplitView.IsPaneOpen == true)
                 {
                     MySplitView.IsPaneOpen = false;

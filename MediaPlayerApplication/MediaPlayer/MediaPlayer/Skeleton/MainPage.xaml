@@ -55,6 +55,12 @@
                             <TextBlock FontSize="24" Margin="10, 0, 0, 0">Books</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
+                    <ListBoxItem Name="Dropbox">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE753;"  Margin="0,0,0,0"></TextBlock>
+                            <TextBlock FontSize="24" Margin="10, 0, 0, 0">Dropbox</TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>

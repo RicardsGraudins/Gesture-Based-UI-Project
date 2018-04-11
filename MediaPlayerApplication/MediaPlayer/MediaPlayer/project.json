@@ -1,5 +1,6 @@
 ﻿{
   "dependencies": {
+    "Dropbox.Api": "4.7.0",
     "FFmpegInterop.UWP": "1.0.4",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0"
   },
