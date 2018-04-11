@@ -7,6 +7,12 @@ This repository contains code and information for my fourth-year (hons) undergra
 ## Project Purpose: Media Player Application
 The purpose of this application is to provide a multi-purpose media player that can play music, videos and read text files out loud. The application can be controlled using voice commands through the use of [Cortana](https://en.wikipedia.org/wiki/Cortana), and like any other media player application - through the use of a GUI.  
 
+<p align="center">
+  <img width="800" height="450" src="https://github.com/RicardsGraudins/Gesture-Based-UI-Project/blob/master/Resources/MediaPlayerApplication.gif">
+</p>
+
+*Disclaimer: The media used in this project is simply there to demonstrate how the application works. I do not claim any copyright to said media content and will remove it upon request.*
+
 ## Project Research and Planning:
 Initially I had considered using a [Myo armband](https://en.wikipedia.org/wiki/Myo_armband) to create a natural user interface for my main project this year - [MageCraft](https://github.com/RicardsGraudins/MageCraft). The idea was to use the armband to control the character movement and allow the player to cast various spells, however with the limited amount of hardware available as well as Myo being highly favoured as the hardware for this module by most students - I decided to base this project using a different technology - Cortana. Unfortunately Cortana could not be used with MageCraft mainly because the game is fast pace and voice commands are more suited to slower pace games where each player takes a turn. After conducting more research I decided to create a media player, and although there are voice controlled media players out there already, I wanted to see how difficult it would be to create my own variation.
 
@@ -15,6 +21,11 @@ The application was built in C# using Visual Studio as a [Universal Windows Plat
 
 ## What is Cortana:
 Cortana is a virtual assistant created by Microsoft for Windows 10, Windows 10 Mobile, Windows Phone 8.1, Invoke smart speaker, Microsoft Band, Xbox One, iOS, Android, Windows Mixed Reality, and soon Amazon Alexa. Cortana can set reminders, recognize natural voice without the requirement for keyboard input, and answer questions using information from the Bing search engine. Cortana is currently available in English, Portuguese, French, German, Italian, Spanish, Chinese, and Japanese language editions, depending on the software platform and region in which it is used. Cortana mainly competes against assistants such as Apple Siri, Google Assistant, and Amazon Alexa.
+
+## Dropbox Integration:
+[Dropbox](https://www.dropbox.com/) is a file hosting service operated by American company Dropbox, Inc., headquartered in San Francisco, California, that offers cloud storage, file synchronization, personal cloud, and client software. Dropbox was founded in 2007, by MIT students Drew Houston and Arash Ferdowsi.  
+
+Added a Dropbox feature that allows a user to download free books from the Dropbox account associated with this application. Users cannot upload their own files to Dropbox via this application - only download the files that are available.
 
 ## List of Commands:
 Words marked with [ ] are optional and are not necessary in order to execute the command.  
@@ -94,3 +105,4 @@ associated with this application.
 * [Cortana Interactions](https://docs.microsoft.com/en-us/windows/uwp/design/input/cortana-interactions)
 * [Universal Windows Platform](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)
 * [FFmpegInterop](https://github.com/Microsoft/FFmpegInterop)
+* [Dropbox API v2](https://github.com/dropbox/dropbox-sdk-dotnet)
